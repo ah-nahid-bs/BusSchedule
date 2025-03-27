@@ -1,0 +1,51 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.suo
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+
+# Dependency Directories
+node_modules/
+
+# Published Output
+wwwroot/
+dist/
+
+# Environment Files
+.env
+.env.*
+
+# Database
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sql
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# Other
+*.tmp
+*.bak
+*.swp
