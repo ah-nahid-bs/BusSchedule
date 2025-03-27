@@ -1,0 +1,17 @@
+@model BusSchedule.Models.Bus
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Details</title>
+</head>
+<body>
+    <h1>Bus Details</h1>
+    <p><strong>Route:</strong> @Model.Route</p>
+    <p><strong>Departure Time:</strong> @Model.DepartureTime</p>
+    <p><strong>Arrival Time:</strong> @Model.ArrivalTime</p>
+    <p><strong>Bus Type:</strong> @Model.BusType</p>
+    <a href="/Bus">Back to Schedule</a>
+</body>
+</html>
